@@ -1,0 +1,71 @@
+/* VoiceBot.css */
+
+.voice-bot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text color */
+  font-family: Arial, sans-serif;
+}
+
+.icon-button {
+  background: none;
+  cursor: pointer;
+  margin-bottom: 20px; 
+  background-color: #ffffff;
+
+
+}
+
+.icon-button .fa-icon {
+  color: #ffffff;
+
+}
+
+.transcription-container {
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.transcription-container h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.transcription-container p {
+  font-size: 1.2em;
+  word-wrap: break-word;
+}
+
+.response-container {
+  width: 80%;
+  max-width: 600px;
+}
+
+.options{
+  height: 25px;
+}
+
+.response-container textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #333333; /* Darker textarea background */
+  color: #ffffff; /* White text color */
+  resize: none; /* Disable resizing */
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  align-items: center;
+}
